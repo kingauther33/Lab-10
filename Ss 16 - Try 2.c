@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 void nhap(int *a);
+int gthua(int a);
+
 int main()
 {
 	int a;
@@ -17,7 +19,7 @@ void nhap(int *a)
 	return;
 }
 
-int gthua(a)
+int gthua(int a)
 {
 	int i;
 	int temp;
